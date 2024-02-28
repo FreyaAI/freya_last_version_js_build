@@ -1,0 +1,14 @@
+#flutter_target {
+    position: fixed; /* Fixed positioning relative to the viewport */
+    bottom: 0; /* Align to the bottom of the viewport */
+    right: 0; /* Align to the right of the viewport */
+    border: 1px solid #aaa; /* Optional, for visual styling */
+    border-radius: 0px; /* Optional, for visual styling */
+    z-index: 1000; /* Ensure it's on top of other content */
+    transition: all 150ms ease-in; /* Optional, for smooth transitions */
+}
+  
+.center {
+  margin: auto;
+}
+  
